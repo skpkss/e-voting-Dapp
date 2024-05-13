@@ -7,7 +7,7 @@ const Vote = ({ state }) => {
     const voterID = document.querySelector("#voterID").value;
     const selectedParty = document.querySelector("#selectedParty").value;
     console.log(name,voterID,selectedParty,contract);
-    const amount = { value: ethers.parseEther("0.001") };
+    const amount = { value: ethers.parseEther("0.00001") };
     const transaction = await contract.registerVoter(name, voterID,selectedParty, amount);
     await transaction.wait();
     console.log("Transaction is done");
