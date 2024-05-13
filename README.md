@@ -22,8 +22,7 @@ View the live deployment at [https://e-voting-dapp.netlify.app/](https://e-votin
 
 - Node.js
 - npm
-- Truffle
-- Ganache or an Ethereum testnet
+- Ethereum Sepolia testnet
 - MetaMask or another Ethereum wallet
 
 ## Installation
@@ -43,6 +42,4 @@ Navigate to the DApp in your web browser.
 Authenticate with your wallet.
 
 Cast your vote by selecting the party and confirming the selection.
-
-If the user is below 18, they will be notified that they are not eligible to vote.
 
