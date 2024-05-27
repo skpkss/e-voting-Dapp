@@ -22,20 +22,21 @@ View the live deployment at [https://e-voting-dapp.netlify.app/](https://e-votin
 
 - Node.js
 - npm
-- MetaMask or another Ethereum wallet.
-- Ethereum Sepolia testnet added in Metamask. For reference: [follow this link](https://youtu.be/H8aL1yXPVho?si=DvTlEC6w1g_t7nJF)
+- MetaMask or another Ethereum wallet. [Click here if you don't have any](https://metamask.io/download/)
+- Ethereum Sepolia testnet. For reference: [follow this link](https://youtu.be/H8aL1yXPVho?si=DvTlEC6w1g_t7nJF)
 - If you don't have test ethers. Don't worry. Get them for free:[https://cloud.google.com/application/web3/faucet/ethereum/sepolia](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
 
 ## Installation
 
 Clone the repository:
    ```bash
-   git clone [https://github.com/skpkss/e-voting-dapp.git](https://github.com/skpkss/e-voting-dapp.git)
+   git clone https://github.com/skpkss/e-voting-dapp.git
    cd e-voting-dapp
    cd client
+   npm start
+ ```
 
-then run:- npm start
-Usage
+## Usage
 Connect to your Ethereum wallet (e.g., MetaMask) and ensure it's connected to the appropriate network,i.e. Sepolia testnet.
 
 Navigate to the Dapp in your web browser.
